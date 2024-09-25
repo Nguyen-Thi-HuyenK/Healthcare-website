@@ -16,5 +16,13 @@ ul{
     display: flex;
     flex-direction: column;
     min-height:  600px;
-    
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
 }
