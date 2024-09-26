@@ -137,7 +137,8 @@ ul{
     font-size: 0.5rem;
     padding-bottom: 1px;
 }
-.nav-appointment-btn{
+/* search */
+.appointment-search-container{
     max-width: 1000px;
     width: 90%;
     background-color: #ffffff;
@@ -163,10 +164,11 @@ ul{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #f7fbff;
     padding: 15px;
     border-radius: 4px;
-    border: 1px solid #e4e4e4;
+    border: 1px solid black;
 }
 .appo-search-box i{
     margin-right: 10px;
@@ -185,7 +187,7 @@ ul{
     border: none;
     cursor: pointer;
     outline: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 .what-we-provide{
     max-width: 1200px;
@@ -1024,5 +1026,56 @@ footer{
         grid-template-columns: 1fr 1fr;
         display: grid;
         grid-gap: 40px;
+    }
+}
+@media(max-width:620px){
+    .hero-text{
+        padding: 20px;
+    }
+    .hero-text h1,
+    .our-story-text h2,
+    .services-heading-text h2,
+    .why-choose-us-left h3,
+    .why-choose-us-right h3,
+    .team-heading h3,
+    .testimonials-heading h3{
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .hero-text-btns{
+        flex-direction: column;
+    }
+    .hero-text-btns a{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .appointment-search{
+        grid-template-columns: 1fr;
+    }
+    .appointment-search button{
+        height: 45px;
+    }
+    .what-we-provide{
+        grid-template-columns: 1fr;
+    }
+    .our-story-text{
+        padding: 20px 15px;
+    }
+    .story-number-box strong{
+        font-size: 1.4rem;
+    }
+    .why-choose-us-left,
+    .why-choose-us-right{
+        padding: 30px 20px;
+    }
+    .why-choose-box-container{
+        grid-template-columns: 1fr;
+    }
+    #subscribe{
+        padding: 20px;
+    }
+    #subscribe h3{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
     }
 }
