@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- font awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
 
@@ -139,7 +141,51 @@
                     <h2>High quality services for you</h2>
                 </div>
             </div>
-            
+            <div class="services-box-container">
+
+                <!-- Swiper -->
+                <div class="swiper mySwiperservices">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="service-box s-box1">
+                            <i class="fa-solid fa-tooth"></i>
+                            <strong>Dental Care</strong>
+                            <p>lorum ispum gdojfs soihfspjfiosjfoei</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide">
+                            <div class="service-box s-box2">
+                                <i class="fa-solid fa-tooth"></i>
+                                <strong>Dental Care</strong>
+                                <p>lorum ispum gdojfs soihfspjfiosjfoei</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-box s-box4">
+                                <i class="fa-solid fa-tooth"></i>
+                                <strong>Dental Care</strong>
+                                <p>lorum ispum gdojfs soihfspjfiosjfoei</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="service-box s-box4">
+                            <i class="fa-solid fa-tooth"></i>
+                            <strong>Dental Care</strong>
+                            <p>lorum ispum gdojfs soihfspjfiosjfoei</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+
+                
+            </div>
 
 
          </section>
@@ -148,7 +194,34 @@
 
             
 
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiperservices", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+  });
+</script>
 </body>
 
 
