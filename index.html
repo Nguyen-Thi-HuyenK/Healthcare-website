@@ -19,6 +19,12 @@
 
         <section id="hero" >
            <nav class="navigation">
+
+            <!-- menu btn-->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
                 <a href="#" class="logo"><span>We</span>Care</a>
                 <ul class="menu">
                     <li><a href="#">Find a doctor</a></li>
@@ -494,11 +500,7 @@
         prevEl: ".swiper-button-prev",
       },
     breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
+      700: {
         slidesPerView: 4,
         spaceBetween: 40,
       },
@@ -517,15 +519,15 @@
         clickable: true,
       },
       breakpoints: {
-        640: {
+        560: {
           slidesPerView: 2,
           spaceBetween: 20,
         },
-        768: {
-          slidesPerView: 4,
+        950: {
+          slidesPerView: 3,
           spaceBetween: 40,
         },
-        1024: {
+        1250: {
           slidesPerView: 4,
           spaceBetween: 50,
         },
