@@ -876,4 +876,24 @@ footer{
     max-width: 1200px;
     width: 90%;
     margin: auto;
+    flex-wrap: wrap;
+}
+.footer-bottom span {
+    color: #535353;
+    font-size: 0.9rem;
+}
+/* making responsive */
+@media(max-width: 1050px) {
+    .hero-content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 50px auto;
+    }
+    .hero-text{
+        margin-bottom: 40px;
+        background-color: #ffffff;
+        padding: 30px;
+        margin-top: 0px;
+    }
 }
