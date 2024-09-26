@@ -262,10 +262,174 @@
                      </div>
                  </div> <!-- container end -->
             </div> <!-- right end -->
+         </section> <!-- end -->
 
-         </section>
+          <!-- Team -->
+        <section id="team">
+            <!-- heading -->
+             <div class="team-heading">
+                <h3>Meet our specialist</h3>
+                <p>Lorunm iscbjkd dhksdnf dknf</p>
+             </div>
+             <!-- container -->
+             <div class="team-box-container">
+                 <!-- Swiper -->
+                <div class="swiper mySwiperteam">
+                <div class="swiper-wrapper">
+                    <!-- slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <!-- igm -->
+                            <div class="team-img">
+                                <img src="images/d1.png" alt="team">
+                            </div>
+                            <!-- text -->
+                            <div class="team-text">
+                                    <strong>Dr. Alex</strong>
+                                    <span>Cardiologist</span>
+                            </div>
+                        </div>
+                    </div> <!-- slider end -->
+                    <!-- slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <!-- igm -->
+                            <div class="team-img">
+                                <img src="images/d2.png" alt="team">
+                            </div>
+                            <!-- text -->
+                            <div class="team-text">
+                                    <strong>Dr. Alex</strong>
+                                    <span>Cardiologist</span>
+                            </div>
+                        </div>
+                    </div> <!-- slider end -->
+                    <!-- slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <!-- igm -->
+                             <div class="team-img">
+                                <img src="images/d3.png" alt="team">
+                             </div>
+                             <!-- text -->
+                              <div class="team-text">
+                                    <strong>Dr. Alex</strong>
+                                    <span>Cardiologist</span>
+                              </div>
+                         </div>
+                    </div> <!-- slider end -->
+                        <!-- slide 4 -->
+                <div class="swiper-slide">
+                    <div class="team-box">
+                        <!-- igm -->
+                         <div class="team-img">
+                            <img src="images/d4.png" alt="team">
+                         </div>
+                         <!-- text -->
+                          <div class="team-text">
+                                <strong>Dr. Alex</strong>
+                                <span>Cardiologist</span>
+                          </div>
+                     </div>
+                </div> <!-- slider end -->
+                    <!-- slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <!-- igm -->
+                             <div class="team-img">
+                                <img src="images/d5.png" alt="team">
+                             </div>
+                             <!-- text -->
+                              <div class="team-text">
+                                    <strong>Dr. Alex</strong>
+                                    <span>Cardiologist</span>
+                              </div>
+                         </div>
+                    </div> <!-- slider end -->
+                </div> <!-- wraper end -->
+                    <div class="swiper-pagination"></div>
+                </div> <!-- swiper end -->
+                <!-- box -->
+             </div>
+        </section>  <!-- end team -->
 
-            
+        <!-- Testimonials -->
+         <section id="testimonials">
+            <div class="testimonials-heading">
+                <h3>Feedback from our customers</h3>
+                <p>Lorum ispum bdhf nchos shu d</p>
+            </div>
+
+            <!-- testimonials content -->
+             <div class="testimonials content">
+                <!-- img -->
+                 <div class="testimonials-img">
+                    <img src="images/testimonials-img.png" alt="testimonials">
+                 </div>
+                 <!-- container -->
+                  <div class="testimonials-box-container">
+
+                    <!-- Swiper -->
+                    <div class="swiper mySwipertestimonials">
+                    <div class="swiper-wrapper">
+                        <!-- slide 1 -->
+                        <div class="swiper-slide">
+                            <!-- box -->
+                            <div class="testimonials-box">
+                                
+                                <!-- profiel -->
+                                <div class="t-profile">
+                                    <div class="t-profile-img">
+                                        <img src="images/t1.jpg" alt="profile">
+                                    </div>
+                                    <!-- text -->
+                                    <div class="t-profile-text">
+                                        <strong>Tiia K</strong>
+                                        <span>From Oulu</span>
+                                        <!-- rating -->
+                                        <div class="t-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div> <!-- profile end -->
+                                <!-- feedback -->
+                                <p>Lorom sis ndi nsjn </p>
+                            </div> <!-- box end -->
+                        </div> <!-- slider end -->
+                        
+                    </div> <!-- wraper end -->
+                    <div class="swiper-pagination"></div>
+                    </div> <!-- swiper end -->
+                  </div> <!-- container end -->
+             </div> <!-- content end -->
+
+         </section> <!-- end testimonials -->
+
+         <!-- subscribe -->
+          <section id="subscribe">
+            <h3>Subscribe for our new updates</h3>
+            <!-- box -->
+             <form class="subscribe-box">
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+             </form>
+          </section> <!-- end subscribe -->
+
+          <!-- footer -->
+           <footer>
+                <div class="footer-container">
+                    <!-- company box -->
+                     <div class="footer-company-box">
+
+                     </div>
+
+
+                </div>
+           </footer>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -298,6 +462,35 @@
       },
     },
   });
+  /* team */
+  var swiper = new Swiper(".mySwiperteam", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+    /* testimonials */
+    var swiper = new Swiper(".mySwipertestimonials", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
 </script>
 </body>
 
