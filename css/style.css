@@ -441,3 +441,50 @@ ul{
 .s-box4 i{
     background-color:  #d4e2ff;;
 }
+.swiper-button-next,
+.swiper-button-prev{
+    position: static !important;
+    transform: translate(0,0);
+    margin: 10px !important;
+}
+.services-slide-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 25px !important;
+    color: #122853;
+    font-weight: 800;
+}
+.service-help-btn{
+    color:#535353;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-align: center;
+    padding: a0px 10px;
+}
+.service-help-btn a{
+    color: #014dd5;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.why-choose-us {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.why-choose-us-left{
+    padding: 50px;
+    background-color:#3c8167 ;
+}
+.why-choose-us-right{
+    padding: 50px;
+    background-color: #4c71d0;
+}
+.why-choose-us-left h3{
+    font-size: 2.6rem;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 3.2rem
