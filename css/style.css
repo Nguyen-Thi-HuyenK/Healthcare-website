@@ -131,7 +131,7 @@ ul{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color:lightslategrey ;
+    background-color:gray;
     margin-right: 8px;
     font-size: 0.5rem;
     padding-bottom: 1px;
@@ -150,7 +150,7 @@ ul{
     margin-top: -60px;
 }
 .appointment-search-container h3{
-    color: #122853;
+    color: #0cc0df;
     font-size: 1rem;
     margin-bottom: 5px;
 }
@@ -181,7 +181,7 @@ ul{
     outline: none;
 }
 .appointment-search button{
-    background-color: #014dd5;
+    background-color: #0cc0df;
     color: #ffffff;
     border-radius: 5px;
     border: none;
@@ -286,7 +286,7 @@ ul{
 }
 .our-story-text h2{
     font-size: 2.8rem;
-    color: #122853;
+    color: #0cc0df;
     line-height: 3rem;
 }
 .our-story-text p{
@@ -312,7 +312,7 @@ ul{
     
 }
 .story-number-box strong{
-    color: #122853;
+    color: #0cc0df;
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -351,13 +351,13 @@ ul{
     margin: auto;
 }
 .services-heading-text strong{
-    color: #014dd5;
+    color: #0cc0df;
     font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: 1px;
 }
 .services-heading-text h2{
-    color: #122853;
+    color: #0cc0df;
     font-size: 2.2rem;
     font-weight: 700;
     max-width: 600px;
@@ -382,7 +382,7 @@ ul{
 }
 .service-box i{
     font-size: 2rem;
-    color: #122853;
+    color: #0cc0df;
     width: 60px;
     height: 60px;
     border-radius: 5px;
@@ -392,7 +392,7 @@ ul{
    
 }
 .service-box strong{
-    color: #122853;
+    color: #0cc0df;
     font-size: 1.4rem;
     margin-top: 20px;
 }
@@ -601,7 +601,7 @@ ul{
 }
 .team-heading h3{
     font-size: 2.4rem;
-    color: #122853;
+    color: #0cc0df;
 }
 .team-heading p{
     color: #535353;
@@ -640,7 +640,7 @@ ul{
     text-align: center;
 }
 .team-text strong{
-    color: #122853;
+    color: #0cc0df;
 }
 .team-text span{
     color: #303030;
@@ -670,7 +670,7 @@ ul{
 }
 .testimonials-heading h3 {
     font-size: 2.4rem;
-    color: #122853;
+    color: #0cc0df;
 }
 testimonials-heading p {
     color: #535353;
@@ -732,7 +732,7 @@ testimonials-heading p {
     align-items: flex-start;
 }
 .t-profile-text strong{
-    color: #122853;
+    color: #0cc0df;
     font-size: 1.2rem;
 }
 .t-profile-text span{
@@ -747,7 +747,7 @@ testimonials-heading p {
 }
 .testimonials-box p{
     font-size: 0.8rem;
-    color: #122853;
+    color: black;
     line-height: 1.4rem;
     letter-spacing: 0.3px;
     margin-top: 30px;
@@ -767,7 +767,7 @@ testimonials-heading p {
 }
 .subscribe h3{
     font-size: 2.6rem;
-    color: #ffffff;
+    color: #0cc0df;
     font-weight: 600;
     line-height: 3.4rem;
     max-width: 600px;
@@ -788,11 +788,11 @@ testimonials-heading p {
     height: 100%;
     padding: 0px 10px;
     background-color: transparent;
-    border: none;
+    border: 1px solid #0cc0df;
     outline: none;
 }
 .subscribe-box button{
-    background-color: #014dd5;
+    background-color: #0cc0df;
     color: #ffffff;
     border-radius: 4px;
     max-width: 120px;
@@ -842,16 +842,16 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #e9e9e9;
+    border: 1px solid #0cc0df;
     color: #333333;
     font-size: 0.9rem;
 }
 .footer-social a:hover{
-    background-color: #014dd5;
+    background-color: #0cc0df;
     color: #ffffff;
 }
 .footer-link-box strong{
-    color: #122853;
+    color: #0cc0df;
     font-size: 1.2rem;
     font-weight: 600;
 }
