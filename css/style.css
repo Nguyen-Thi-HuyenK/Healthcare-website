@@ -159,8 +159,9 @@ ul{
     display: grid;
     grid-template-columns: 1fr 1fr 60px;
     grid-gap: 10px;
+    /* border: 1px solid black; */
 }
-.appointment-search-box{
+.appo-search-box{
     width: 100%;
     display: flex;
     justify-content: space-between;
