@@ -28,19 +28,18 @@ ul{
     margin: 0 auto;
     padding: 30px 0;
 }
-.logo{
-    color: #122853;
-    font-size: 1.4rem;
-    font-weight: 700;
+.logo img {
+    width: 300px;  /* Set a smaller width, e.g., 80px */
+    height: auto; /* Maintain the aspect ratio */
 }
-.logo span{
+/* .logo span{
     background-color: #014dd5;
     color: #ffffff;
     padding: 0px 5px;
     border-radius: 5px;
     font-weight: 600;
     margin-right: 5px;
-}
+} */
 .menu{
     display:flex;
     justify-content: center;
@@ -95,12 +94,12 @@ ul{
     margin-top: 30px;
 }
 .hero-text h1{
-    font-size: 3.2rem;
-    color: #122853;
+    font-size: 3rem;
+    color: #0cc0df;
     line-height: 3.6rem;
 }
 .hero-text p{
-    color: #535353;
+    color: black;
     margin: 15px 0px;
     max-width: 500px;
     letter-spacing: 0.3px;
@@ -114,8 +113,8 @@ ul{
 .hero-text-btns a{
     height: 45px;
     padding: 0px 15px;
-    background-color: #122853;
-    color: #ffffff;
+    background-color: #0cc0df;
+    color: white;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -132,7 +131,7 @@ ul{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: #014dd5;
+    background-color:lightslategrey ;
     margin-right: 8px;
     font-size: 0.5rem;
     padding-bottom: 1px;
@@ -902,6 +901,9 @@ footer{
         padding: 30px;
         margin-top: 0px;
     }
+    .logo img {
+        width: 120px; /* Adjust to a smaller width */
+    }
 }
 @media(max-width: 950px) {
     .navigation{
@@ -909,6 +911,9 @@ footer{
         padding: 20px;
         width: 100%;
         position: relative;
+    }
+    .logo img {
+        width: 100px; /* Smaller width for smaller screens */
     }
     .logo,
     .nav-appointment-btn,
@@ -1032,6 +1037,9 @@ footer{
 @media(max-width:620px){
     .hero-text{
         padding: 20px;
+    }
+    .logo img {
+        width: 80px; /* Even smaller width for very small screens */
     }
     .hero-text h1,
     .our-story-text h2,
