@@ -29,8 +29,8 @@ ul{
     padding: 30px 0;
 }
 .logo img {
-    width: 300px;  /* Set a smaller width, e.g., 80px */
-    height: auto; /* Maintain the aspect ratio */
+    width: 300px; 
+    height: auto; 
 }
 /* .logo span{
     background-color: #014dd5;
@@ -903,7 +903,7 @@ footer{
         margin-top: 0px;
     }
     .logo img {
-        width: 120px; /* Adjust to a smaller width */
+        width: 120px; 
     }
 }
 @media(max-width: 950px) {
@@ -914,7 +914,7 @@ footer{
         position: relative;
     }
     .logo img {
-        width: 100px; /* Smaller width for smaller screens */
+        width: 100px; 
     }
     .logo,
     .nav-appointment-btn,
