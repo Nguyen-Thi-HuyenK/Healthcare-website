@@ -504,7 +504,7 @@ ul{
     justify-content: flex-start;
     align-items: center;
     padding: 20px;
-    background-color:#dd3f3f
+    background-color:rgb(237, 255, 243);
 }
 .why-choose-box i{
     width: 35px;
@@ -523,11 +523,11 @@ ul{
     justify-content: center;
 }
 .why-choose-box-text strong{
-    color: #ffffff;
+    color: #0cc0df;
     font-weight: 600;
 }
 .why-choose-box-text p{
-    color: white;
+    color: #0cc0df;
     font-size: 0.9rem;
     opacity: 0.7;
 }
